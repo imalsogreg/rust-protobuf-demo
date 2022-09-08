@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package my_messages;
+
+message Greeting {
+  // The name of the person being greeted.
+  string name = 1;
+  // The greeting message.
+  string message = 2;
+  // The time that the greeting was generated (seconds past epoch).
+  uint32 create_time = 3;
+}
+
+message GreetingRequest {
+  string name = 1;
+}
