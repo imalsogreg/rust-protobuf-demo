@@ -8,7 +8,7 @@ fn main() -> Result<()> {
 
     let proto_files = &[
         concat!(env!("CARGO_MANIFEST_DIR"), "/../protobufs/messages.proto"),
-        concat!(env!("CARGO_MANIFEST_DIR"), "/../protobufs/service.proto")
+        concat!(env!("CARGO_MANIFEST_DIR"), "/../protobufs/service.proto"),
     ];
     let include_dirs = &[concat!(env!("CARGO_MANIFEST_DIR"), "/../protobufs/")];
 

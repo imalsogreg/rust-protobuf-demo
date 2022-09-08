@@ -8,7 +8,7 @@ pub mod service {
 
 #[cfg(test)]
 mod tests {
-    use super::my_messages::{GreetingRequest, Greeting};
+    use super::my_messages::{Greeting, GreetingRequest};
 
     #[test]
     fn it_defines_greeting_requests() {
